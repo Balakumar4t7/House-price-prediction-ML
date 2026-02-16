@@ -69,29 +69,38 @@ Shows Actual Price vs Predicted Price.
 If predictions are accurate, points align closely along a straight line.
 
 ---
-
 ## 🚀 How to Run
 
 ### Step 1: Train Model
+
 ```bash
 python house_model.py
+```
 
-    This will:
-    Train the model
-    Display evaluation metrics
-    Save model files (.pkl)
+This will:
+- Train the model  
+- Display R² score and Mean Squared Error  
+- Save model files (.pkl)  
 
-### Step 2: Run the model (Predict New Price)
- python predict.py
+---
+
+### Step 2: Predict New House Price
+
+```bash
+python predict.py
+```
+
 This uses the trained model to predict house price for new input values.
 
-###Technologies Used
+---
 
-*Python
-*Pandas
-*NumPy
-*Scikit-learn
-*Matplotlib
-*Joblib
+## 🛠 Technologies Used
 
-Author: <Balakumar>
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
+- Joblib  
+
+Author: Balakumar
